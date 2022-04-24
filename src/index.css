@@ -1,0 +1,24 @@
+* {
+  font-family: "space grotesk", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.container {
+  padding: 30px 0;
+  /* background-image: url(./bg.jpeg); */
+  background-image: url(./bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  object-fit: cover;
+  height: 100vh;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
